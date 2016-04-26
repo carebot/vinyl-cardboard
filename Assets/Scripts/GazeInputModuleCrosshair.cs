@@ -19,13 +19,13 @@ public class GazeInputModuleCrosshair : MonoBehaviour
 	[Tooltip("Crosshair GameObject attached to your VR Camera")]
 	public Transform Crosshair;
 
-	private GazeInputModule gazeInputModule;
+	private PKGazeInputModule gazeInputModule;
 	private Vector3 CrosshairOriginalScale;
 	private float CrosshairOriginalDistance;
 
 	void Awake()
 	{
-		gazeInputModule = GetComponent<GazeInputModule>();
+		gazeInputModule = GetComponent<PKGazeInputModule>();
 	}
 
 	void Start () 

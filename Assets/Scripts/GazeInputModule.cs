@@ -8,7 +8,7 @@ using System.Collections.Generic;
 // 2. Disable any other Input Modules (eg: StandaloneInputModule & TouchInputModule) as they will fight over selections.
 // 3. Make sure your Canvas is in world space and has a GraphicRaycaster (should by default).
 // 4. If you have multiple cameras then make sure to drag your VR (center eye) camera into the canvas.
-public class GazeInputModule : PointerInputModule 
+public class PKGazeInputModule : PointerInputModule 
 {
 	public enum Mode { Click = 0, Gaze };
 	public Mode mode;
@@ -25,7 +25,7 @@ public class GazeInputModule : PointerInputModule
 	private float currentLookAtHandlerClickTime;
 
 	public override void Process()
-	{ 
+	{
 		HandleLook();
 		HandleSelection();
 	}
@@ -44,7 +44,7 @@ public class GazeInputModule : PointerInputModule
 		CurrentRaycast = pointerEventData.pointerCurrentRaycast = FindFirstRaycast(raycastResults);
 		ProcessMove(pointerEventData);
 	}
-	
+
 	void HandleSelection()
 	{
 		if (pointerEventData.pointerEnter != null)
@@ -57,10 +57,10 @@ public class GazeInputModule : PointerInputModule
 
 				currentLookAtHandlerClickTime = Time.realtimeSinceStartup + GazeTimeInSeconds;
 			}
-			
+
 			// if we have a handler and it's time to click, do it now
-			if (currentLookAtHandler != null && 
-			    (mode == Mode.Gaze && Time.realtimeSinceStartup > currentLookAtHandlerClickTime) || 
+			if (currentLookAtHandler != null &&
+			    (mode == Mode.Gaze && Time.realtimeSinceStartup > currentLookAtHandlerClickTime) ||
 			    (mode == Mode.Click && Input.GetButtonDown(ClickInputName)))
 			{
 				if (EventSystem.current.currentSelectedGameObject != null)
