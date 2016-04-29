@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: fd78f477a9b1e42949900159c041dbb0
+timeCreated: 1461468679
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ID105
+    100002: ID113
+    100004: ID113 1
+    100006: ID122
+    100008: ID130
+    100010: ID140
+    100012: ID148
+    100014: ID154
+    100016: ID167
+    100018: ID173
+    100020: ID181
+    100022: ID187
+    100024: ID193
+    100026: ID199
+    100028: ID205
+    100030: ID21
+    100032: ID213
+    100034: ID219
+    100036: ID227
+    100038: ID31
+    100040: ID41
+    100042: ID51
+    100044: ID59
+    100046: ID6
+    100048: ID67
+    100050: ID77
+    100052: ID83
+    100054: ID91
+    100056: ID99
+    100058: instance_9
+    100060: newplatter
+    100062: peg_working
+    100064: plinth_frame
+    100066: plinth_front
+    100068: plinth_front 1
+    100070: plinth_short_side
+    100072: plinth_short_side 1
+    100074: switches
+    100076: tonearm_arm
+    100078: tonearm_base
+    100080: tonearm_headshell
+    100082: tonearm_pivot
+    100084: top_plate
+    100086: trim
+    100088: //RootNode
+    400000: ID105
+    400002: ID113
+    400004: ID113 1
+    400006: ID122
+    400008: ID130
+    400010: ID140
+    400012: ID148
+    400014: ID154
+    400016: ID167
+    400018: ID173
+    400020: ID181
+    400022: ID187
+    400024: ID193
+    400026: ID199
+    400028: ID205
+    400030: ID21
+    400032: ID213
+    400034: ID219
+    400036: ID227
+    400038: ID31
+    400040: ID41
+    400042: ID51
+    400044: ID59
+    400046: ID6
+    400048: ID67
+    400050: ID77
+    400052: ID83
+    400054: ID91
+    400056: ID99
+    400058: instance_9
+    400060: newplatter
+    400062: peg_working
+    400064: plinth_frame
+    400066: plinth_front
+    400068: plinth_front 1
+    400070: plinth_short_side
+    400072: plinth_short_side 1
+    400074: switches
+    400076: tonearm_arm
+    400078: tonearm_base
+    400080: tonearm_headshell
+    400082: tonearm_pivot
+    400084: top_plate
+    400086: trim
+    400088: //RootNode
+    2300000: ID105
+    2300002: ID113
+    2300004: ID113 1
+    2300006: ID122
+    2300008: ID130
+    2300010: ID140
+    2300012: ID148
+    2300014: ID154
+    2300016: ID167
+    2300018: ID173
+    2300020: ID181
+    2300022: ID187
+    2300024: ID193
+    2300026: ID199
+    2300028: ID205
+    2300030: ID21
+    2300032: ID213
+    2300034: ID219
+    2300036: ID227
+    2300038: ID31
+    2300040: ID41
+    2300042: ID51
+    2300044: ID59
+    2300046: ID6
+    2300048: ID67
+    2300050: ID77
+    2300052: ID83
+    2300054: ID91
+    2300056: ID99
+    2300058: //RootNode
+    3300000: ID105
+    3300002: ID113
+    3300004: ID113 1
+    3300006: ID122
+    3300008: ID130
+    3300010: ID140
+    3300012: ID148
+    3300014: ID154
+    3300016: ID167
+    3300018: ID173
+    3300020: ID181
+    3300022: ID187
+    3300024: ID193
+    3300026: ID199
+    3300028: ID205
+    3300030: ID21
+    3300032: ID213
+    3300034: ID219
+    3300036: ID227
+    3300038: ID31
+    3300040: ID41
+    3300042: ID51
+    3300044: ID59
+    3300046: ID6
+    3300048: ID67
+    3300050: ID77
+    3300052: ID83
+    3300054: ID91
+    3300056: ID99
+    3300058: //RootNode
+    4300000: ID227
+    4300002: ID219
+    4300004: ID213
+    4300006: ID205
+    4300008: ID199
+    4300010: ID193
+    4300012: ID187
+    4300014: ID181
+    4300016: ID173
+    4300018: ID167
+    4300020: ID154
+    4300022: ID148
+    4300024: ID140
+    4300026: ID130
+    4300028: ID122
+    4300030: ID113
+    4300032: ID113
+    4300034: ID105
+    4300036: ID99
+    4300038: ID91
+    4300040: ID83
+    4300042: ID77
+    4300044: ID67
+    4300046: ID59
+    4300048: ID51
+    4300050: ID41
+    4300052: ID31
+    4300054: ID21
+    4300056: ID6
+    4300058: SketchUp.1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
